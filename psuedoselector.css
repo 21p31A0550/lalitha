@@ -1,0 +1,64 @@
+#abc{
+	font-size:50px;
+	font-family: cursive;
+}
+
+p{
+
+	font-size: 30px;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+*{
+	font-size: 30p
+	color: yellow;
+}
+input[type="text"]{x;
+	font-family: cursive;
+	color: darkgreen;
+}
+input[type]{
+	color: darkred;
+}
+input[type="number"]{
+	color: blue;
+}
+
+a[href]{
+	color: yellow;
+}
+img[alt]
+{
+	width: 200px;
+	height: 200px;
+	border: 2px;
+}
+div[style]
+{
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+}
+a:hover
+{
+	color: darkred;
+	font-size: 200px;
+
+}
+a:link
+{
+	color: darkgreen;
+}
+a:visited
+{
+	color: hotpink;
+}
+div:hover
+{
+	height: 200px;
+	width: 200px;
+	color: black;
+}
