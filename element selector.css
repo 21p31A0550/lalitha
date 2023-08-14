@@ -1,0 +1,21 @@
+#abc{
+	font-size:50px;
+	font-family: cursive;
+}
+
+p{
+	color: red;
+	font-size: 30px;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+table
+{
+	border: 3px grey;
+	height: 20px;
+	width: 20px;
+	background-color: yellow;
+}
