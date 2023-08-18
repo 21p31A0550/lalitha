@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOM METHODS</title>
+</head>
+<body>
+    <!-- 1. <p class="topic">HTML</p>
+    <p class="topic">CSS</p>
+    <P class="topic">BS</P>
+    <p class="topic">JS</p>
+    <script type="text/javascript">
+    	let s = document.getElementsByClassName('topic');
+    	console.log(s);
+    	s[0].innerHTML = 'hyper text markup language';
+    	s[2].innerHTML = 'BootStrap';
+    </script> -->
+
+   <!-- <p class="topic">HTML</p>
+    <p class="topic">CSS</p>
+    <P class="topic">BS</P>
+    <p class="topic">JS</p>
+<ul>
+	<li>ACE</li>
+	<li>ACET</li>
+	<li>ACOE</li>
+</ul>
+
+    <script type="text/javascript">
+    	//2. let lis = document.getElementsByTagName('li');
+    	// console.log(lis)
+    	// lis[0].innerText = 'Aditya Engineering College';
+
+    	3. let ps = document.querySelector('.topic');//class selector
+    	ps.innerText = 'Hyper text markup language';
+    	let lis = document.querySelector('li');//tag selector
+    	lis.innerText = 'Aditya College'
+
+    </script>  -->
+
+  4.  <h1>A H1 elements</h1>
+    <h2>A H2 elements</h2>
+    <h3>A H2 elements</h3>
+    <div>A DIV elements</div>
+    <p>A P element</p>
+    <p>A P element with a <span style="color: brown;">span</span>element inside</p>
+
+    <script type="text/javascript">
+    	const nodeList = document.querySelectorAll("h3, div, span");
+    	for(let i=0;i < nodeList.lenght;i++){
+    		nodeList[i].style.backgroundColor = "red";
+    	}
+    </script>
+
+<!-- 5.  <table border="1" cellpassing="">
+  <tr>
+  	<td>&nbsp;1</td>
+  	<td>&nbsp;2</td>
+  	<td>&nbsp;3</td>
+  </tr>
+  <tr>
+  	<td>&nbsp;4</td>
+  	<td>&nbsp;5</td>
+  	<td>&nbsp;6</td>
+  </tr>
+  <tr>
+  	<td>&nbsp;7</td>
+  	<td>&nbsp;8</td>
+  	<td>&nbsp;9</td>
+  </tr>
+
+</table>
+</body>
+<script type="text/javascript">
+	let tds = document.getElementsByTagName('td');
+	for (var i=0;i<tds.lenght;i+=+){
+		tds[i].innerText = i+1;
+	}
+</script> -->
+</html>
