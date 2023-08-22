@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Handler</title>
+</head>
+<body>
+
+    <!-- 1.<!..inline event handler..>
+ 		<button onclick="test()">Click Here</button>
+    	<script type="text/javascript">
+    		function test(){
+    			alert("testing...")
+    		}
+    	</script> -->
+
+    	<!-- <!.. 2. inline event handler..>
+    		<!..2nd way inline properties..>
+ 		<button onclick="test()">Click Here</button>
+    	<script type="text/javascript">
+    		function test(){
+    			alert("testing...")
+    			document.body.style.background = 'green'
+    		}
+    	</script> -->
+
+    	
+    		<!-- 3. <!..2nd way inline properties..>
+ 		<button onclick="test()">Click Here</button>
+    	<script type="text/javascript">
+    		// 2nd way
+            let btn =  document.getElementsById('btn_id');
+    		btn.onclick=function(){
+    		    alert("hi")
+    		    document.body.style.background = 'green'
+    		}
+    		</script>  -->
+
+
+     <!-- 4.   <button onclick="test()">Click Here</button>
+    	<script type="text/javascript">
+       let btn = document.getElementsById('btn_id')
+       btn.addEventListener('click',test)
+       function test(){
+       	alert("testing")
+       	document.body.style.background = 'red'
+       }
+   </script> -->
+
+   <button onclick="hidediv">Hide</button>
+   	<button onclick="showdiv">Show</button>
+   <div id='div_id'>Full Stack FN Batch</div>
+
+   <script type="text/javascript">
+   	function hidediv(){
+   		document.getElemenstById('div_id').style.display='none'
+   	}
+   	function decrby1(){
+   		document.getElemenstById('p_id').style.display='black'
+   	}
+   </script>
+</body>
+</html>

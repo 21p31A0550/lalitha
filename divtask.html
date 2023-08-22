@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>divtask</title>
+</head>
+<body>
+	<center>
+		<div style="height:450px;width:1200px; background: black;">
+			<div style="height:400px;width:700px; background: white; float: left; margin: 25px;">
+				<div style="height: 370px; width: 220px;background: lightblue;float: left;margin: 5px;"> <img src="images/download.jpg" style="height: 370px;width: 220px;" onclick="getimg(images/download.jpg)"> </div>
+				<div style="height: 370px; width: 220px;background: lightblue;float: left;margin: 5px;"> <img src="images/download.jpg" style="height: 370px;width: 220px;" onclick="getimg(images/download.jpg)"> </div>
+				<div style="height: 370px; width: 220px;background: lightblue;float: left;margin: 5px;"> <img src="images/download.jpg" style="height: 370px;width: 220px;" onclick="getimg(images/download.jpg)"> </div>
+			</div>
+			<div style="height: 400px; width: 400px; float:left;background: white; margin: 25px;" id="out"></div>
+		</div>
+	</center>
+	<script type="text/javascript">
+		function getimg(img_path)
+		{
+			alert(img_path);
+			// document.getElementById('out').innerHTML="<img src='"+img_path+"' style='width:400px;height:400px'/>";
+		}
+	</script>
+</body>
+</html>

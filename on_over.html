@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button id="btn_id">click here</button>
+<script type="text/javascript">
+	let btn = document.getElementsById('btn_id');
+	//btn.onclick = sample //functionname
+	//btn.ondblclick = sample
+	//btn.onmouseover = sample
+	btn.onmouseout = sample
+	//btn.onmousemove = sample
+	function sample(){
+		document.body.style.background='green';
+	}//annomynous function
+// 	event is nothing about actuions
+// we have 3 ways of handle events
+// 1.Inline event hnadlers(by using event attributes in HTML)
+// ex:<button onclick="javascriptcode">
+// 2.by using event properties in js
+// ex:let btn = document.getElementsById
+
+	
+</script>
+</body>
+</html>
